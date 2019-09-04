@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defalutZone: http://locahost:9761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: eureka-client001
